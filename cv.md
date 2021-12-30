@@ -50,4 +50,4 @@ _November 2013 - February 2014| Kyiv (remote)_
 
 ## English
 
-**B1**, according to ![EF SET Quick Check](/eng.png)
+**B1**, according to EF SET Quick Check ![EF SET Quick Check](/eng.png)
