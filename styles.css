@@ -171,11 +171,9 @@ line-height: 27px;
 margin-bottom: 10px;
 }
 .photo{
-    padding: 0 auto;
+    margin-left: 30px;
 }
-.photo img{
-    margin: 0 auto;
-}
+
 .contacts, 
 .techskills{
     margin-left: 40px;
