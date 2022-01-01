@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
@@ -5,6 +8,7 @@ body{
 .main{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1280px;
     margin: 0 auto;
 }
@@ -125,7 +129,17 @@ font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
-
+.education-list{
+    padding: 0;
+    margin-left: 15px;
+}
+.education-list li{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
 .education-name{
 font-style: normal;
 font-weight: bold;
@@ -156,8 +170,15 @@ font-size: 22px;
 line-height: 27px;
 margin-bottom: 10px;
 }
-.contacts, .techskills{
-margin-left: 40px;
+.photo{
+    padding: 0 auto;
+}
+.photo img{
+    margin: 0 auto;
+}
+.contacts, 
+.techskills{
+    margin-left: 40px;
 }
 .contacts{
 margin-bottom: 50px;
@@ -165,7 +186,6 @@ padding-top: 20px;
 }
 .contact-type{
 font-style: normal;
-font-weight: bold;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
