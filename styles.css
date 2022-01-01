@@ -237,7 +237,20 @@ margin-bottom: 10px;
 .footer{
     background-color: #616992;
     height: 100px;
-    width: 1280px;
+    width: 1770px;
     margin: 0 auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.footer-content{
+    margin: 10px auto;
+    text-align: center;
+}
+.footer-content a, p{
+    color: #fff;
+    font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+margin-bottom: 10px;
 }
