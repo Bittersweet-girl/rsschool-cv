@@ -125,9 +125,7 @@ font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
-.education{
 
-}
 .education-name{
 font-style: normal;
 font-weight: bold;
@@ -192,4 +190,15 @@ line-height: 24px;
 .softskills{
     margin-left: 40px;
     margin-top: 45px;
+}
+.english{
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.english p{
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
