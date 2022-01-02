@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+html {
+  scroll-behavior: smooth; 
+}
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
@@ -11,11 +14,32 @@ body{
   margin: 0;
   padding: 0;
 }
+.header{
+    background-color: #fff;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-item {
+  padding: 0 10px;
+  
+}
+.nav-item a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    text-decoration: none;
+}
 .main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .sidebar{
@@ -32,12 +56,12 @@ font-size: 22px;
 line-height: 27px;
 margin-bottom: 10px;
 }
-.photo{
+.sidebar-photo{
     margin-left: 30px;
 }
 
 .contacts, 
-.techskills{
+.tech-skills{
     margin-left: 40px;
 }
 .contacts{
@@ -52,22 +76,22 @@ color: #FFFFFF;
 margin-right: 5px;
 }
 
-.techskilss-list{
+.tech-skilss-list{
     color: #fff;
     padding: 0;
     margin-left: 15px;
 }
-.techskilss-list li{
+.tech-skilss-list li{
     color: #FB6D3A;
 }
-.techskilss-list span{
+.tech-skilss-list span{
     color: #fff;
     font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 }
-.softskills{
+.soft-skills{
     margin-left: 40px;
     margin-top: 45px;
 }
@@ -227,6 +251,10 @@ line-height: 17px;
 color: #000000;
 margin-bottom: 10px;
 }
+.project-img{
+    width: 10%;
+    height: 10%;
+}
 .code{
     font-style: normal;
     font-weight: normal;
@@ -237,7 +265,7 @@ margin-bottom: 10px;
 .footer{
     background-color: #616992;
     height: 100px;
-    width: 1770px;
+    max-width: 1270px;
     margin: 0 auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);   
 }
