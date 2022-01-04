@@ -23,7 +23,6 @@ body{
     padding: 0px;
     width: 100%;
     margin: 0 auto;
-   
 }
 .nav-list {
   display: flex;
@@ -61,7 +60,6 @@ body{
 .sidebar{
     background-color: #616992;
     padding: 40px 20px;
-
 }
 
 .sidebar-title{
@@ -88,6 +86,10 @@ body{
 margin-bottom: 50px;
 padding-top: 20px;
 }
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+}
 .contact-type{
 font-style: normal;
 font-size: 14px;
@@ -107,9 +109,9 @@ margin-right: 5px;
 .tech-skilss-list span{
     color: #fff;
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
 .soft-skills{
     margin-left: 30px;
