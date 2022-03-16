@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>CV Cross-Check</title>
+</head>
+
+<body>
+    <div class="parent">
+    <!--Header-->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                <li class="nav-item"><a href="#tech-skills">Tech skills</a></li>
+                <li class="nav-item"><a href="#soft-skills">Soft skills</a></li>
+                <li class="nav-item"><a href="#english">English</a></li>
+                <li class="nav-item"><a href="#aboute">Aboute</a></li>
+                <li class="nav-item"><a href="#work">Experience</a></li>
+                <li class="nav-item"><a href="#education">Education</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#code">Code example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!---Main-->
+    <main class="main">
+
+        <!--Side bar-->
+        <aside class="sidebar">
+            <div class="sidebar-photo">
+                <img src="assets/img/photo.png" alt="main photo">
+            </div>
+
+            <!--Contacts-->
+            <section class="contacts" id="contacts">
+                <h2 class="sidebar-title">Contacts</h2>
+                <ul class="contact-list">
+                    <li class="contact-type">
+                        Telegram: @Enatav
+                    </>
+                    <li class="contact-type">
+                        Email:
+                        <a href="mailto:enatav1@gmail.com" class="contact-type">enatav1@gmail.com</a>
+                    </li>
+                    <li class="contact-type">
+                        GitHub:
+                        <a href="https://github.com/Bittersweet-girl" class="contact-type">Bittersweet-girl</a>
+                    </>
+                    <li class="contact-type">
+                        Discord name: Nataly(@Bittersweet-girl)
+                    </li>
+                </ul>
+            </section>
+
+            <!--Tech skills-->
+            <section class="tech-skills" id="techs-kills">
+                <h2 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skilss-list">
+                    <li><span>HTML/CSS</span></li>
+                    <li><span>JS (learning)</span></li>
+                    <li><span>Photoshop</span></li>
+                    <li><span>Figma</span></li>
+                    <li><span>VS code</span></li>
+                    <li><span>Git/Git hub</span></li>
+                </ul>
+            </section>
+
+            <!--Soft skills-->
+            <section class="soft-skills" id="soft-skills">
+                <h2 class="sidebar-title">Soft skills</h2>
+                <ul class="tech-skilss-list">
+                    <li><span>Understanding Scrum metodology</span></li>
+                    <li><span>Social</span></li>
+                    <li><span>Desire to learn, flexibility, research</span></li>
+                    <li><span>Teamwork</span></li>
+                </ul>
+            </section>
+
+            <!--English-->
+            <section class="english" id="english">
+                <h2 class="sidebar-title">English</h2>
+                <p><b>B1, </b>according to EF SET Quick Check</p>
+                <img src="assets/img/eng.png" alt="eng level" height="100" width="100">
+            </section>
+        </aside>
+
+        <!--Main content-->
+        <div class="main-content">
+            <!--Aboute user-->
+            <section id="aboute">
+                <h3 class="aboute-position">Trainee Front-End Developer</h3>
+                <h1 class="aboute-name">Nataly Sakhno</h1>
+                <p class="aboute-description">
+                    I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+                    I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+                    I am learling Java Script now. I want to find remote work.                </p>
+            </section>
+
+            <!--Work-->
+            <section class="work" id="work">
+                <h2 class="title">Experience</h2> 
+                <div>
+                    <h4 class="work-position">HTML/CSS developer (freelance), <span class="organisation">LineCore</span></h4>
+                    <p class="period">November 2013 - February 2014<span class="line">|</span> Kyiv (remote)</p>
+                    <ul class="work-list">
+                        <li>
+                            Slice (PSD) to HTML
+                        </li>
+                        <li>
+                            Fix bugs
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--Education-->
+            <section id="education">
+                <h2 class="title">Education</h2>
+                <ul class="education-list">
+                    <li>
+                        <h4 class="education-name">National aviation university</h4>
+                        <h4 class="education-position">Master “Computer systems and networks”</h4>
+                        <p class="period">September 2007 - February 2013 <span class="line">|</span> Kyiv</p>
+                    </li>
+                    <li>
+                        <h4 class="education-name">Courses</h4>
+                        <ul>
+                            <li>Basic HTML/CSS on Stepik</li>
+                            <li>Basic HTML/CSS on Code Basic</li>
+                            <li>JS/Frontend on RS School (in process)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!--Projects-->
+            <section class="project" id="project">
+                <h2 class="title">Projects</h2>
+                <a class="project-img" href="https://bittersweet-girl-cv-cross-check.netlify.app"><img src="assets/img/cv-html_css.png" alt="My first project"></a>
+            </section>
+
+            <!--Code example-->
+            <section id="code">
+                <h2 class="title">Code example</h2>
+                <pre class="code">
+                <code>
+                    function sum(a, b) {
+                    return a + b;
+                    }
+                    let result = sum(1, 2);
+                    alert( result );
+                </code>
+                </pre>
+            </section>
+        </div>
+        
+        
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://github.com/Bittersweet-girl">My GitHub</a>
+            <img class="logo" src="assets/svg/rs.svg" alt="RSlogo">
+            <a href="https://rs.school/js-stage0/">My course</a>
+            <p>2022</p>
+        </div>
+
+    </footer>
+    </div>
+</body>
+</html>
